@@ -44,6 +44,11 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
+    "typescript": "~2.7.2",
+    "randomatic": ">=3.0.0",
+    "cryptiles": ">=4.1.2",
+    "url-parse": ">=1.4.3",
+    "adm-zip": ">=0.4.11",
+    "https-proxy-agent": ">=2.2.0"
   }
 }
