@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="action.add" datatype="html">
+        <source>add</source>
+        <target>追加</target>
+      </trans-unit>
+      <trans-unit id="action.clear" datatype="html">
+        <source>clear</source>
+        <target>クリア</target>
+      </trans-unit>
+      <trans-unit id="action.go_back" datatype="html">
+        <source>go back</source>
+        <target>戻る</target>
+      </trans-unit>
+      <trans-unit id="action.save" datatype="html">
+        <source>save</source>
+        <target>保存</target>
+      </trans-unit>
+      <trans-unit id="app.nav.dashboard" datatype="html">
+        <source>Dashboard</source>
+        <target>ダッシュボード</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="app.nav.heroes" datatype="html">
+        <source>Heroes</source>
+        <target>ヒーロー</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heroes.head" datatype="html">
+        <source>My Heroes</source>
+        <target>マイヒーロー</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/heroes/heroes.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero-search.head" datatype="html">
+        <source>Hero Search</source>
+        <target>ヒーロー検索</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-search/hero-search.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heroes.heroName" datatype="html">
+        <source>Hero name:</source>
+        <target>ヒーロー名:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/heroes/heroes.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.head" datatype="html">
+        <source>Top Heroes</source>
+        <target>トップヒーロー</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="messages.head" datatype="html">
+        <source>Messages</source>
+        <target>メッセージ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/messages/messages.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero-detail.head" datatype="html">
+        <source>Details</source>
+        <target>詳細画面</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero-detail.label.name" datatype="html">
+        <source>name:</source>
+        <target>名前:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/hero-detail/hero-detail.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

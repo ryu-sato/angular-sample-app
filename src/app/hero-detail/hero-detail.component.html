@@ -1,12 +1,12 @@
 
 <div *ngIf="hero">
-  <h2>{{ hero.name | uppercase }} Details</h2>
+  <h2>{{ hero.name | uppercase }} <ng-container i18n="@@hero-detail.head">Details</ng-container></h2>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
-    <label>name:
+    <label><ng-container i18n="@@hero-detail.label.name">name:</ng-container>
       <input [(ngModel)]="hero.name" placeholder="name">
     </label>
   </div>
-  <button (click)="goBack()">go back</button>
-  <button (click)="save()">save</button>
+  <button (click)="goBack()"><ng-container i18n="@@action.go_back">go back</ng-container></button>
+  <button (click)="save()"><ng-container i18n="@@action.save">save</ng-container></button>
 </div>

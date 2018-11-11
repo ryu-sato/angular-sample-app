@@ -1,7 +1,7 @@
 <h1>{{title}}</h1>
 <nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard"><ng-container i18n="@@app.nav.dashboard">Dashboard</ng-container></a>
+  <a routerLink="/heroes"><ng-container i18n="@@app.nav.heroes">Heroes</ng-container></a>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>
